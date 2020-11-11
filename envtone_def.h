@@ -14,7 +14,6 @@
 #define PWM_KHZ  20
 
 #define BAUD 4800
-//#define BPS_T  (PWM_KHZ * 1000+(BAUD/2))/BAUD
 
 #define BPS_S	4
 #define BPS		8
@@ -22,10 +21,13 @@
 
 
 
-	/*
+/*
  * PWM_PIN 出力PINの選択  
  */
  #define PWM_PIN    PB1
 
+/*
+ * ポリフォニックモード時はコメントアウト
+ */
 //#define MONO_MODE
 
